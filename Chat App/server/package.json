@@ -1,0 +1,27 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "server for the chat application",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumartul/MEN-Projects.git"
+  },
+  "keywords": [
+    "chat-app",
+    "server",
+    "socket-io",
+    "mongodb",
+    "nodejs",
+    "expressjs"
+  ],
+  "author": "Atul Kumar <akumarofficial4224@gmail.com> (https://www.github.com/Atul-Kumar-Official)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kumartul/MEN-Projects/issues"
+  },
+  "homepage": "https://github.com/kumartul/MEN-Projects#readme"
+}
