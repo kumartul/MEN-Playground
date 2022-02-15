@@ -23,5 +23,8 @@
   "bugs": {
     "url": "https://github.com/kumartul/MEN-Projects/issues"
   },
-  "homepage": "https://github.com/kumartul/MEN-Projects#readme"
+  "homepage": "https://github.com/kumartul/MEN-Projects#readme",
+  "dependencies": {
+    "socket.io": "4.4.1"
+  }
 }
