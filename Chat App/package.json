@@ -24,8 +24,5 @@
   "bugs": {
     "url": "https://github.com/kumartul/MEN-Projects/issues"
   },
-  "homepage": "https://github.com/kumartul/MEN-Projects#readme",
-  "dependencies": {
-    "tailwindcss": "3.0.22"
-  }
+  "homepage": "https://github.com/kumartul/MEN-Projects#readme"
 }
