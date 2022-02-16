@@ -63,7 +63,7 @@ body {
 .container .messages .center {
     background: lightgreen;
 
-    margin: auto;
+    margin: 2px auto;
 
     text-align: center;
 
