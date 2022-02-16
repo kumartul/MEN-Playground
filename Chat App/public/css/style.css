@@ -60,6 +60,15 @@ body {
 
     color: white;
 }
+.container .messages .center {
+    background: lightgreen;
+
+    margin: auto;
+
+    text-align: center;
+
+    max-width: 300px;
+}
 
 .container .form #form-group {
     display: grid;
