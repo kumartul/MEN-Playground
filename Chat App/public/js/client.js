@@ -31,6 +31,8 @@ const append = (message, position) => {
     msgElement.innerHTML = message;
 
     msgContainer.appendChild(msgElement);
+
+    msgContainer.scrollTop = msgContainer.scrollHeight;
 }
 
 // Add a 'submit' event listener to the form
