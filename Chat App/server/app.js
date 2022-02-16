@@ -17,7 +17,6 @@ io.on('connection', socket => {
     });
 
     socket.on('send', message => {
-        console.log("sent...");
         socket.broadcast.emit('receive', { 
             message, 
             name: users[socket.id] 
@@ -26,7 +25,7 @@ io.on('connection', socket => {
 
     socket.on('disconnect', message => {
         socket.broadcast.emit('left', users[socket.id]);
-        
+
         delete users[socket.id];
     });
 });
