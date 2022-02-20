@@ -63,7 +63,7 @@ socket.on('receive', data => {
 });
 
 socket.on('left', name => {
-    append(`${name} left the chat`, 'center');
+    append(`<strong>${name}</strong> left the chat`, 'center');
 });
 
 // Ask the name of the user as soon as the user visits the website
