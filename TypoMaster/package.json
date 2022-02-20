@@ -1,0 +1,27 @@
+{
+  "name": "typomaster",
+  "version": "0.1.0",
+  "description": "Compete with your friends in typing",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumartul/MEN-Projects.git"
+  },
+  "keywords": [
+    "nodejs",
+    "expressjs",
+    "mongodb",
+    "socketio",
+    "typing",
+    "multiplayer"
+  ],
+  "author": "Atul Kumar <akumarofficial4224@gmail.com> (https://www.github.com/Atul-Kumar-Official)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kumartul/MEN-Projects/issues"
+  },
+  "homepage": "https://github.com/kumartul/MEN-Projects#readme"
+}
