@@ -1,0 +1,97 @@
+body {
+    background: whitesmoke;
+}
+::-webkit-scrollbar {
+    display: none;
+}
+
+.icon {
+    width: 50px;
+    height: 50px;
+
+    margin-right: 15px;
+}
+
+.container {
+    background: white;
+
+    font-family: Cambria, sans-serif;
+
+    height: 85vh;
+    width: 90vw;
+
+    margin-top: 15px;
+    padding: 10px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+}
+
+.container .messages {
+    height: 75vh;
+
+    overflow-y: scroll;
+
+    margin-bottom: 10px;
+}
+.container .messages .message {
+    border-radius: 5px;
+
+    padding: 5px 10px;
+    margin-bottom: 2px;
+
+    clear: both;
+
+    min-width: 10px;
+    max-width: 40vw;
+}
+.container .messages .left {
+    background: #e5e5e5;
+
+    float: left;
+
+    color: #4a4a4a;
+}
+.container .messages .right {
+    background: #1b9bff;
+    
+    float: right;
+
+    color: white;
+}
+.container .messages .center {
+    background: lightgreen;
+
+    margin: 2px auto;
+
+    text-align: center;
+
+    max-width: 300px;
+}
+
+.container .form #form-group {
+    display: grid;
+    grid-gap: 10px;
+    grid-template-columns: 9fr 1fr;
+}
+.container .form #form-group input:focus {
+    outline-color: #1b9bff;
+}
+.container .form #form-group button {
+    background: #1b9bff;
+
+    border: none;
+    border-radius: 5px;
+    
+    color: white;
+    font-size: 18px;
+    font-family: Calibri;
+    
+    transition: 0.5s;
+}
+.container .form #form-group button:hover {
+    background: #50b0fa;
+    
+    transition: 0.5s;
+}
