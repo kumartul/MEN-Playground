@@ -18,7 +18,6 @@ body {
     font-family: Cambria, sans-serif;
 
     height: 85vh;
-    width: 90vw;
 
     margin-top: 15px;
     padding: 10px;
@@ -94,4 +93,30 @@ body {
     background: #50b0fa;
     
     transition: 0.5s;
+}
+.global {
+    display: grid;
+    grid-template-columns: 1fr 3fr;
+    grid-gap: 10px;
+}
+.sidebar {
+    height: 85vh;
+
+    margin-top: 15px;
+
+    background: white;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px 3px rgba(0, 0, 0, 0.1);
+}
+.sidebar .users h2 {
+    margin-top: 3rem;
+}
+.sidebar .users .user {
+    background: #e5e5e5;
+
+    padding: 0.5rem;
+
+    border-bottom: 1px solid #ccc;
 }
