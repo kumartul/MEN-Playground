@@ -1,0 +1,26 @@
+{
+  "name": "chat-app",
+  "version": "0.1.0",
+  "description": "Real-time chat app using websockets",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumartul/MEN-Projects.git"
+  },
+  "keywords": [
+    "chat-app",
+    "websockets",
+    "nodejs",
+    "expressjs",
+    "socket.io"
+  ],
+  "author": "Atul Kumar <akumarofficial4224@gmail.com> (https://www.github.com/Atul-Kumar-Official)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kumartul/MEN-Projects/issues"
+  },
+  "homepage": "https://github.com/kumartul/MEN-Projects#readme"
+}
