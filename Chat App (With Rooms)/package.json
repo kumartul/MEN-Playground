@@ -1,0 +1,27 @@
+{
+  "name": "chat-app",
+  "version": "0.1.0",
+  "description": "Real-time chat app with rooms",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumartul/MEN-Playground.git"
+  },
+  "keywords": [
+    "real-time",
+    "chat-app",
+    "nodejs",
+    "expressjs",
+    "socket.io",
+    "websockets"
+  ],
+  "author": "Atul Kumar <akumarofficial4224@gmail.com> (https://www.github.com/Atul-Kumar-Official)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kumartul/MEN-Playground/issues"
+  },
+  "homepage": "https://github.com/kumartul/MEN-Playground#readme"
+}
