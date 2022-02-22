@@ -26,6 +26,7 @@
   "homepage": "https://github.com/kumartul/MEN-Playground#readme",
   "dependencies": {
     "express": "4.17.3",
+    "qs": "6.10.3",
     "socket.io": "4.4.1"
   }
 }
