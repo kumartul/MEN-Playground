@@ -37,12 +37,6 @@
 
     <!-- Custom CSS -->
     <link rel="stylesheet" href="./css/main.css" type="text/css">
-
-    <!-- Standalone build of socket.io -->
-    <script src="http://localhost:3000/socket.io/socket.io.js" defer></script>
-
-    <!-- Custom JS -->
-    <script src="./js/client.js" defer></script>
 </head>
 
 <body>
@@ -70,7 +64,7 @@
             <img src="./assets/images/icon.png" alt="SockeTalk Logo"><span style="font-size: 25px;">SockeTalk</span>
         </header>
         <main class="join-main">
-            <form action="chat.html">
+            <form action="chat.html" id="chat-form">
                 <div class="form-control">
                     <label for="username">Username</label>
                     <input type="text" name="username" id="username" placeholder="Enter username..." required />
