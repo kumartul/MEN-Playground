@@ -58,29 +58,50 @@
             <div class="collapse navbar-collapse" id="navbarSupportedContent">
                 <ul class="navbar-nav me-auto mb-2 mb-lg-0">
                     <li class="nav-item">
-                        <a class="nav-link active" aria-current="page" href="index.html">Home</a>
+                        <a class="nav-link" aria-current="page" href="index.html">Home</a>
                     </li>
                 </ul>
             </div>
         </div>
     </nav>
 
-    <!-- Main Container -->
-    <div class="container">
+    <!-- Global Container -->
+    <main class="global">
 
-        <!-- Messages Container -->
-        <div class="messages">
+        <!-- Sidebar -->
+        <aside class="sidebar">
+            
+            <!-- Room -->
+            <h2><u>Room</u></h2>
+            <div class="room">
+                JavaScript
+            </div>
+            
+            <!-- Users -->
+            <h2><u>Users</u></h2>
+            <div class="users">
+                <div class="user">Atul</div>
+            </div>
+        </aside>
 
+        <!-- Main Container -->
+        <div class="container">
+    
+            <!-- Messages Container -->
+            <div class="messages">
+    
+            </div>
+    
+            <!-- Form -->
+            <div class="form">
+                <form action="#" id="form-group" autocomplete="off">
+                    <input type="text" placeholder="Enter your message" id="message" autofocus>
+                    <button type="submit">Send</button>
+                </form>
+            </div>
         </div>
+    </main>
 
-        <!-- Form -->
-        <div class="form">
-            <form action="#" id="form-group" autocomplete="off">
-                <input type="text" placeholder="Enter your message" id="message" autofocus>
-                <button type="submit">Send</button>
-            </form>
-        </div>
-    </div>
 </body>
 
 </html>
