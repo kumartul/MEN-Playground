@@ -25,6 +25,7 @@
   },
   "homepage": "https://github.com/kumartul/MEN-Playground#readme",
   "dependencies": {
+    "ejs": "3.1.6",
     "express": "4.17.3"
   }
 }
