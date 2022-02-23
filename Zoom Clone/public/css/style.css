@@ -1,0 +1,8 @@
+#video-grid {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#video-grid video {
+    width: 30vw;
+}
