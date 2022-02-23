@@ -27,6 +27,7 @@
   "dependencies": {
     "ejs": "3.1.6",
     "express": "4.17.3",
+    "peer": "0.6.1",
     "socket.io": "4.4.1",
     "uuid": "8.3.2"
   }
