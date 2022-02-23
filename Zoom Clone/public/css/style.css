@@ -129,3 +129,7 @@ html {
 li {
     padding: 5px;
 }
+
+::-webkit-scrollbar {
+    display: none;
+}
