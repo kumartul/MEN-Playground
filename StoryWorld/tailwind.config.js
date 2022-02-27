@@ -1,5 +1,5 @@
 module.exports = {
-    content: ['*.{html,hbs,js,json}'],
+    content: ['*.{js,json}', './views/*.hbs', './views/partials/*.hbs'],
     theme: {
         extend: {}
     },
