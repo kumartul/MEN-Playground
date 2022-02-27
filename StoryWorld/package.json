@@ -29,6 +29,7 @@
   "homepage": "https://github.com/kumartul/MEN-Playground#readme",
   "dependencies": {
     "express": "4.17.3",
+    "express-handlebars": "6.0.2",
     "mongoose": "6.2.3"
   }
 }
