@@ -1,5 +1,3 @@
 # Directories
 node_modules/
-
-# Files
-./config/.env
+config/
