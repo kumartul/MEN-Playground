@@ -1,0 +1,30 @@
+{
+  "name": "storyworld",
+  "version": "1.0.0",
+  "description": "Share your mind-blowing stories with the world",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/kumartul/MEN-Playground.git"
+  },
+  "keywords": [
+    "story",
+    "world",
+    "node",
+    "express",
+    "mongodb",
+    "mongoose",
+    "google-auth",
+    "passport-auth",
+    "auth"
+  ],
+  "author": "Atul Kumar <akumarofficial4224@gmail.com> (https://www.github.com/Atul-Kumar-Official)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/kumartul/MEN-Playground/issues"
+  },
+  "homepage": "https://github.com/kumartul/MEN-Playground#readme"
+}
