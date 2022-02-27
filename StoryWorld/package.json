@@ -37,6 +37,7 @@
     "moment": "2.29.1",
     "mongoose": "6.2.3",
     "morgan": "1.10.0",
-    "passport": "0.5.2"
+    "passport": "0.5.2",
+    "passport-google-oauth20": "2.0.0"
   }
 }
