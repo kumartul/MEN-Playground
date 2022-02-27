@@ -5,7 +5,9 @@
   "main": "app.js",
   "scripts": {
     "start": "cross-env NODE_ENV=production node app",
-    "dev": "cross-env NODE_ENV=development nodemon app"
+    "dev": "cross-env NODE_ENV=development nodemon app",
+    "tailwind-production": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/style.css",
+    "tailwind-dev": "npx tailwindcss -i ./public/css/tailwind.css -o ./public/css/style.css --watch"
   },
   "repository": {
     "type": "git",
