@@ -33,6 +33,7 @@
     "dotenv": "16.0.0",
     "express": "4.17.3",
     "express-session": "1.17.2",
+    "hbs": "4.2.0",
     "method-override": "3.0.0",
     "moment": "2.29.1",
     "mongoose": "6.2.3",
