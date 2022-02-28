@@ -25,5 +25,8 @@
   "bugs": {
     "url": "https://github.com/kumartul/MEN-Playground/issues"
   },
-  "homepage": "https://github.com/kumartul/MEN-Playground#readme"
+  "homepage": "https://github.com/kumartul/MEN-Playground#readme",
+  "dependencies": {
+    "express": "4.17.3"
+  }
 }
